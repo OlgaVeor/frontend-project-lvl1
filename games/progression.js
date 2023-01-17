@@ -22,9 +22,8 @@ const gameProgression = () => {
     const missingNumber = getRundomNumber(lengthProgression);
 
     const progressions = [];
-    for (let i = 0; i < lengthProgression; i += 1) {
-      progressions.push(numberFirst + i * step);
-    }
+    for (let i = 0; i < lengthProgression; i += 1) progressions.push(numberFirst + i * step);
+
     const progressionsForGamer = [...progressions];
     progressionsForGamer[missingNumber] = '..';
     console.log(`Question: ${progressionsForGamer}`);
