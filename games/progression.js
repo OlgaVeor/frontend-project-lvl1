@@ -26,7 +26,7 @@ const gameProgression = () => {
 
     const progressionsForGamer = [...progressions];
     progressionsForGamer[missingNumber] = '..';
-    console.log(`Question: ${progressionsForGamer}`);
+    console.log(`Question: ${progressionsForGamer.join(' ')}`);
 
     const answerGamer = getAnswer();
     const answer = Number(answerGamer);
