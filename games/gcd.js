@@ -13,7 +13,7 @@ const getResultGDC = (number1, number2) => {
     if (num1 % acc === 0 && num2 % acc === 0) return acc;
     return iter(acc - 1);
   };
-  return iter(Math.floor(num1 / 2));
+  return iter(Math.floor(num1));
 };
 
 const gameGCD = () => {
