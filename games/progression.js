@@ -19,7 +19,8 @@ const gameProgression = () => {
     const numberFirst = getRundomNumber(maxNumber);
     const step = getRundomNumber(maxStep);
     const lengthProgression = getRundomNumber(maxLengthProgr, minLengthProgr);
-    const missingNumber = getRundomNumber(lengthProgression);
+    const lastOrderInProgressins = lengthProgression - 1;
+    const missingNumber = getRundomNumber(lastOrderInProgressins);
 
     const progressions = [];
     for (let i = 0; i < lengthProgression; i += 1) progressions.push(numberFirst + i * step);
