@@ -13,7 +13,7 @@ const isWrongAnswer = (result, answer, correctAnswer, count, quantityQuestion) =
 };
 
 const isCorrectAnswer = (result) => {
-  if (result === true) console.log(`Congratulations, ${name}`);
+  if (result === true) console.log(`Congratulations, ${name}!`);
 };
 
 export {
