@@ -5,7 +5,7 @@ const name = nameUser();
 const isWrongAnswer = (result, answer, correctAnswer, count, quantityQuestion) => {
   if (result === false) {
     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
-    console.log(`Let's try again, ${name}`);
+    console.log(`Let's try again, ${name}!`);
     return quantityQuestion;
   }
   console.log('Correct!');
