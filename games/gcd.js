@@ -29,7 +29,7 @@ const gameGCD = () => {
     const number1 = getRundomNumber(maxNumberFirst, minNumber);
     const number2 = getRundomNumber(maxNumberSecond, minNumber);
     const resultGCD = getResultGDC(number1, number2);
-    console.log(`Question: ${number1}  ${number2}`);
+    console.log(`Question: ${number1} ${number2}`);
     const answerGamer = getAnswer();
     const answer = Number(answerGamer);
     result = getResult(answer, resultGCD);
